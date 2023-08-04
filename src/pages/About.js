@@ -14,7 +14,7 @@ function About() {
 }, []);
   return (
     <>
-    <Navbar />
+    <Navbar  />
     <AboutHero />
     {/* <AboutDesc /> */}
     <AboutDescr />

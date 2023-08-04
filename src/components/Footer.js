@@ -20,8 +20,8 @@ function Footer() {
                         <h6 className="footer-heading text-uppercase  mt-3 text-white">INFORMATION</h6>
                         <ul className="list-unstyled footer-link mt-4">
                             <li><a href="/">Home</a></li>
-                            <li><a href="">About us </a></li>
-                            <li><a href="#">classNamees</a></li>
+                            <li><a href="/about">About us </a></li>
+                            <li><a href="/support">Support</a></li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ function Footer() {
                         <h6 className="footer-heading text-uppercase  mt-3 text-white">QUICK LINKS</h6>
                         <ul className="list-unstyled footer-link mt-4">
                             <li><a href="/">Events</a></li>
-                            <li><a href="">Gallery </a></li>
+                            <li><a href="#">Gallery </a></li>
                             <li><a href="#">Collaborate</a></li>
                         </ul>
                     </div>

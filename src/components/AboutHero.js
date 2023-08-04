@@ -38,7 +38,7 @@ const AboutSlider = () => {
 
                     <SplideSlide>
                         <div class="image-overlay">
-                            <img src={abt} alt="" srcset="" class="img-fluid mt-0" />
+                            <img src={abt} alt="" srcset="" class="img-fluid mt-0 w-100" />
                             <h1 class="choreographer-text">TEACHER</h1>
                         </div>
                         <div class="container">
@@ -62,7 +62,7 @@ const AboutSlider = () => {
 
                     <SplideSlide>
                         <div class="image-overlay">
-                            <img src={abt} alt="" srcset="" class="img-fluid mt-0" />
+                            <img src={abt} alt="" srcset="" class="img-fluid mt-0 w-100" />
                             <h1 class="choreographer-text">CHOREOGRAHER</h1>
                         </div>
                         <div class="container">
@@ -86,7 +86,7 @@ const AboutSlider = () => {
 
                     <SplideSlide>
                         <div class="image-overlay">
-                            <img src={abt} alt="" srcset="" class="img-fluid mt-0" />
+                            <img src={abt} alt="" srcset="" class="img-fluid mt-0 w-100" />
                             <h1 class="choreographer-text">NATTUVANAR</h1>
                         </div>
                         <div class="container">
@@ -111,7 +111,7 @@ const AboutSlider = () => {
                     <SplideSlide>
                         <div class="image-overlay">
                             <div class="image-overlay">
-                                <img src={abt} alt="" srcset="" class="img-fluid mt-0" />
+                                <img src={abt} alt="" srcset="" class="img-fluid mt-0 w-100" />
                                 <h1 class="choreographer-text">ORGANISER</h1>
                             </div>
                             <div class="container">

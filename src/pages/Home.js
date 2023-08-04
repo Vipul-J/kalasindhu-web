@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Team from '../components/Team'
 import Testimonial from '../components/Testimonial'
+import bgImg from '../assets/images/why.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -68,7 +69,7 @@ function Home() {
             </section>
 
             {/* <!-- why --> */}
-            <section style={{ backgroundColor: "rgba(36, 17, 10, 1)" }}>
+            <section className='p-5' style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: "rgba(36, 17, 10, 1)" }}>
                 <div className="container p-5">
                     <div className="row">
                         <div className="col-lg-6 d-flex justify-content-center align-items-center">
@@ -198,10 +199,11 @@ function Home() {
 
             {/* <!-- contact --> */}
             <section style={{ backgroundColor: "rgba(92, 61, 50, 1)" }}>
-                <div class="container p-5">
-                    <div class="row">
+                <div class="container p-5 map">
+                    <div class="row justify-content">
                         <div class="col-lg-8">
                             <h2 class="text-center text-white">Come visit us</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.610553407524!2d77.55541367472718!3d12.932733715729922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e2615f2180b%3A0x36301a3a3787ae2a!2sKalasindhu%20Academy%20for%20Dance%20and%20Related%20Arts!5e0!3m2!1sen!2sin!4v1690896701490!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='text-center'></iframe>
                         </div>
                         <div class="col-lg-4">
                             <div class="contact-wrapper p-4"

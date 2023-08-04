@@ -10,7 +10,6 @@ const Testimonial = () => {
 
     return (
         <section style={{ backgroundColor: 'rgba(19, 51, 17, 1)' }}>
-
             <div className='row'>
                 <div className='col-lg-5'>
                     <div className='test-card-left mb-4 mt-4'>

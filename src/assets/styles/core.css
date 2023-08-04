@@ -52,6 +52,7 @@
 
 /* navbar */
 
+
 .navbar-nav .nav-link {
     color: #ffffff;
     font-size: 16px;
@@ -130,51 +131,49 @@
     top: 8px;
 }
 
-.accordion-item {
-    margin-bottom: 10px;
+.accordion {
+    background-color: transparent; 
     border: none;
-}
+  }
+  
+  .accordion-item {
+    background-color: rgba(255, 255, 255, 0) !important;  
+    border: none;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
 
-.accordion-button {
-    background-color: rgba(36, 17, 10, 1);
+  .accordion-body {
+    color: #fff;
+    font-weight: bolder;
     border: 1px solid #ffd814;
-}
-
-.accordion-button.collapsed {
-    background-color: rgba(36, 17, 10, 1);
+  }
+  
+  .accordion-body p{
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  .accordion-button {
+    color: #fff;  
+    background-color: transparent;
+  }
+  .accordion-header button {
+    color: #fff;  
+    background-color: transparent;
     border: 1px solid #ffd814;
-    color: white;
-}
+  }
+  
+  .accordion-header button::before {
+    display: none;  
+  }
 
-.accordion-button:active {
-    background-color: rgba(36, 17, 10, 1);
-}
-
-.accordion-button:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.accordion-body {
-    background-color: rgba(36, 17, 10, 1);
-    border: 1px solid #ffd814;
-    color: white;
-}
-
-.accordion-button::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 16px;
-    transform: translateY(-50%) rotate(90deg);
-    width: 0;
-    height: 0;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid white;
-    /* Change the arrow color to white */
-}
-
+  .accordion-header button[aria-expanded="true"] {
+    background-color: transparent;
+    color: #fff;  
+  }
+ 
+ 
 .splide__slide {
     position: relative;
 }
@@ -237,7 +236,7 @@
 }
 
 .footer-link a:hover {
-    color: #a1b3b6;
+    color: #ffd814;
     transition: .2s;
 }
 
@@ -372,5 +371,11 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 0px !important;
+    }
+
+    .map iframe{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 45px;
     }
 }
