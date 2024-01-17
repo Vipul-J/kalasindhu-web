@@ -13,7 +13,7 @@ function Home() {
     useEffect(() => {
         AOS.init();
     }, []);
-    const targetDate = "August 15, 2023 12:00:00";
+    const targetDate = "Febrauary 15, 2024 12:00:00";
     const [countdown, setCountdown] = useState({
         days: '28',
         hours: '12',
@@ -43,7 +43,7 @@ function Home() {
         <>
             <Navbar />
             <section className='hero-wrapper position-relative'>
-                <img src={heroImg} className='img-fluid' alt='Hero Image'/>
+                <img src={heroImg} className='img-fluid' alt='Hero Image' />
                 <div className='hero-overlay d-flex align-items-center justify-content-center'>
                     <h2 className='display-4 p-3 text-white text-center fw-bolder'>
                         Parampara is like an umbilical cord that connects dancers to the beginnings of their art form.
@@ -68,6 +68,15 @@ function Home() {
                 </div>
             </section>
 
+            <section>
+                <div className='d-flex justify-content-center align-items-center p-5 '>
+                    <h1 className='fw-bolder'>What's New?</h1>
+                </div>
+                <div className='d-flex justify-content-center align-items-center  p-5'>
+                    <p className='text-warning mb-5 fs-1 text-center fw-bold'>We will be out with something super exciting soon.. </p>
+                </div>
+            </section>
+
             {/* <!-- why --> */}
             <section className='p-5' style={{ backgroundImage: `url(${bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: "rgba(36, 17, 10, 1)" }}>
                 <div className="container p-5">
@@ -77,7 +86,7 @@ function Home() {
                                 <p className="display-6 text-white" data-aos="zoom-in" data-aos-duration="1500">Why choose
                                     Kalasindhu Academy?</p>
                                 <div>
-                                    <a className="btn btn-sm btn-warning rounded-pill">Check this out!</a>
+                                    <a className="btn btn-md btn-warning rounded">Know more about us</a>
                                 </div>
                             </div>
                         </div>

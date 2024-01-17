@@ -11,7 +11,7 @@
 
 .image-overlay {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .image-overlay img {

@@ -8,7 +8,7 @@ function AboutDescr() {
         <>
 
             <section className='abt-wrapper'>
-                <img src={abtImg} className='img-fluid' alt='Hero Image' />
+                <img src={abtImg}   alt='Hero Image' />
                 <div className='abt-overlay'>
                     <p style={{ fontWeight: 200 }} className='text-center text-white fs-4'>Kalasindhu, the esteemed Academy of Dance and Related Arts, is passionately committed to the preservation and promotion of Indian arts and culture. Nestled in the vibrant city of Banashankari, Bangalore, India, this renowned institution serves as a beacon for artistic excellence.
                         At Kalasindhu, a comprehensive and integrated approach to education is offered, encompassing the rich tapestry of classical arts, including dance, music, visual art, and Sanskrit. However, it is dance that takes center stage, receiving the utmost attention and focus.

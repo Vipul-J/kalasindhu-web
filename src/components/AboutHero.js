@@ -8,7 +8,8 @@ import abtImg from '../assets/images/abt2.png'
 const AboutSlider = () => {
     const splideOptions = {
         direction: 'ttb', // Vertical direction
-        height: '500px', // Set the height of the slider
+        height: '500px',
+        width:'100%', // Set the height of the slider
         wheel: true,
         arrows: false // Enable mouse wheel scrolling
     };

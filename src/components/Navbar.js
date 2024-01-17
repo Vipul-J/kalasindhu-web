@@ -24,10 +24,14 @@ function Navbar() {
                         <a className="nav-link" href="/about">About Us</a>
                     </li>
                     <li className="nav-item px-3">
-                        <a className="nav-link" href="/">Events</a>
+                        <a className="nav-link" href="/events">Events</a>
                     </li>
                     <li className="nav-item px-3">
-                        <a className="nav-link" href="gallery.html">Gallery</a>
+                        <a className="nav-link" href="/education">Education</a>
+                    </li>
+
+                    <li className="nav-item px-3">
+                        <a className="nav-link" href="/collaborate">Collaborate</a>
                     </li>
                     <li className="nav-item px-3">
                         <a className="nav-link" href="/support">Support</a>

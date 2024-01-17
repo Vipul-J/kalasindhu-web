@@ -17,7 +17,7 @@ const Team = () => {
     return (
         <section style={{ backgroundColor: 'rgb(0, 0, 0)' }}>
             <div className="container p-3">
-                <h2 className="text-center" style={{ color: 'rgba(197, 158, 112, 1)' }}>Meet our Team</h2>
+                <h2 className="text-center mt-4 mb-4" style={{ color: 'rgba(197, 158, 112, 1)' }}>Meet our Team</h2>
                 <Splide
                     options={{
                         type: 'loop',
@@ -30,7 +30,7 @@ const Team = () => {
                     }}
                     ref={splideRef}
                 >
-                    <SplideSlide className='me-3'>
+                    <SplideSlide className='me-3 mb-4'>
                         <img src={t1} alt="Slide 1" height="250" style={{ borderRadius: '12px' }} />
                         <figcaption className="figcaption text-white fw-bolder">Gowri Vishwanath<p className="mb-0" style={{ fontSize: '12px' }}>Music Teacher</p></figcaption>
                         <div className="small-desc text-dark mt-0 mb-0">
